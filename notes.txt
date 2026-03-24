@@ -1,0 +1,25 @@
+Things I need to learn:
+
+- What is a SIEM?
+- What does Wazuh do?
+- What is Sysmon?
+- What logs matter?
+
+What Wazuh does:
+
+- Collects logs from machines
+- Detects suspicious activity
+- Creates alerts
+
+What I will do:
+
+- Look at alerts
+- Investigate what happened
+- Decide if it's bad or normal
+- Write down what I find
+
+Windows VM:
+
+- This is my main monitored machine
+- All activity here will generate logs
+- Wazuh will later monitor this system
