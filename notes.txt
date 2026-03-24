@@ -110,8 +110,41 @@ Workflow:
 
 --------------------------------------------------
 
+First log activity:
+
+- Ran commands on Windows VM (whoami, ipconfig)
+- Learned that not all commands generate logs
+
+--------------------------------------------------
+
+First real security event:
+
+- Created a new user on Windows VM
+- This generated security log events
+
+--------------------------------------------------
+
+First detected alert:
+
+- Created a user account on Windows VM
+- Wazuh generated multiple alerts:
+  - User account created
+  - User account changed
+  - Group membership changes
+
+Observations:
+
+- Alerts mapped to MITRE ATT&CK techniques (T1098, T1484)
+- Shows how SIEM detects potentially malicious persistence activity
+
+Key learning:
+
+- Real alerts come from security-relevant actions
+- SIEM correlates multiple events into meaningful detections
+
+--------------------------------------------------
+
 Next Steps:
 
-- Access Wazuh dashboard
-- Connect Windows VM
 - Start generating and analyzing alerts
+- Create custom detection rules
