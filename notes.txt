@@ -72,6 +72,14 @@ Wazuh install result:
 
 --------------------------------------------------
 
+Dashboard access:
+
+- Accessed Wazuh dashboard from host machine browser
+- Used local IP (192.168.x.x)
+- Connection is safe because it is on a private network
+
+--------------------------------------------------
+
 Next Steps:
 
 - Access Wazuh dashboard
