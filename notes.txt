@@ -64,9 +64,16 @@ Ubuntu-Wazuh VM:
 
 --------------------------------------------------
 
+Wazuh install result:
+
+- Installer says dashboard is available over HTTPS on port 443
+- Next step is to find the IP of ubuntu-wazuh
+- Then access the dashboard from browser
+
+--------------------------------------------------
+
 Next Steps:
 
-- Install Wazuh on ubuntu-wazuh VM
-- Access dashboard
+- Access Wazuh dashboard
 - Connect Windows VM
 - Start generating and analyzing alerts
