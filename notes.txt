@@ -23,3 +23,9 @@ Windows VM:
 - This is my main monitored machine
 - All activity here will generate logs
 - Wazuh will later monitor this system
+
+Linux VM (Kali):
+
+- This is my second monitored system
+- Will generate Linux logs
+- Helps simulate a real environment

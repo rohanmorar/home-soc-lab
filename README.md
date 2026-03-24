@@ -27,6 +27,8 @@ I want to become a SOC analyst and be able to:
 - [x] Basic understanding of SOC workflow
 - [x] VMware installed
 - [x] Windows VM created
+- [X] Create Linux VM
 
 Next step:
-- [ ] Create Linux VM
+- [ ] Install Wazuh SIEM
+
