@@ -80,6 +80,36 @@ Dashboard access:
 
 --------------------------------------------------
 
+System roles:
+
+Host machine:
+
+- Used to access Wazuh dashboard
+- Used to view and investigate alerts
+- Acts as the SOC analyst
+
+ubuntu-wazuh VM:
+
+- Runs Wazuh SIEM
+- Receives and analyzes logs
+- Generates alerts
+
+Windows VM:
+
+- Endpoint being monitored
+- Runs Wazuh agent
+- Sends logs to SIEM
+
+Workflow:
+
+- Windows VM generates activity
+- Agent sends logs to Wazuh
+- Wazuh analyzes logs
+- Alerts appear in dashboard
+- I investigate from host machine
+
+--------------------------------------------------
+
 Next Steps:
 
 - Access Wazuh dashboard
