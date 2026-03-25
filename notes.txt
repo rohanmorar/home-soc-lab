@@ -144,7 +144,19 @@ Key learning:
 
 --------------------------------------------------
 
+Custom rule success:
+
+- Custom rule ID 100001 successfully triggered
+- Alert detected new Windows user account creation
+- Severity increased to level 10
+- Alert visible alongside default Wazuh rules
+
+Key learning:
+
+- Custom rules allow tuning detection sensitivity
+- SIEM can be customized for specific behaviors
+- Detection engineering requires testing and validation
+
 Next Steps:
 
 - Start generating and analyzing alerts
-- Create custom detection rules
