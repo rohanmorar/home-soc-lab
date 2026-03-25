@@ -188,3 +188,17 @@ Key learning:
 
 - SOC work involves investigation and documentation, not just alerts
 - Clear explanation of events is critical
+
+--------------------------------------------------
+
+Threat enrichment:
+
+- Started IP enrichment using AbuseIPDB API
+- Built a simple Python script to check whether an IP has abuse history
+- This adds context to alerts and helps speed up triage
+
+Key learning:
+
+- Enrichment helps analysts investigate faster
+- External threat intelligence can improve alert quality
+- API keys must be kept out of GitHub
