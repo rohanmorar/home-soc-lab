@@ -202,3 +202,41 @@ Key learning:
 - Enrichment helps analysts investigate faster
 - External threat intelligence can improve alert quality
 - API keys must be kept out of GitHub
+
+--------------------------------------------------
+
+Enrichment applied:
+
+- Used AbuseIPDB script to analyze IP from alert
+- Added threat intelligence context to incident report
+
+Key learning:
+
+- Enrichment improves investigation quality
+- Helps distinguish between benign and malicious activity
+- Reduces time needed for alert triage
+
+--------------------------------------------------
+
+IP field clarification:
+
+- agent.ip represents the monitored system (Windows VM)
+- For investigation, use source IP fields like win.eventdata.ipAddress or srcip
+
+Key learning:
+
+- Important to distinguish between system IP and attacker IP
+- In lab, failed logins may originate from localhost (127.0.0.1)
+
+--------------------------------------------------
+
+Localhost IP observation:
+
+- Source IP for failed logins was 127.0.0.1
+- Indicates activity originated from the same system
+
+Key learning:
+
+- Not all IPs should be enriched
+- Localhost activity is expected in lab simulations
+- Important to interpret IP context correctly

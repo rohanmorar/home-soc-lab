@@ -73,3 +73,21 @@ This activity was identified as a simulated brute-force attempt. Detection was s
 - Multiple failures indicate potential attack patterns
 - Correlation rules improve detection accuracy
 - SIEM tuning is essential for meaningful alerts
+
+## 9. Threat Intelligence Enrichment
+
+The source IP associated with the failed login attempts was analyzed during the investigation.
+
+- **IP Address:** 127.0.0.1
+- **Abuse Confidence Score:** N/A
+- **Country:** N/A
+- **ISP:** N/A
+- **Total Reports:** N/A
+
+### Analysis
+
+The source IP is a localhost address (127.0.0.1), which indicates the activity originated from the same system. In this lab scenario, this confirms that the brute-force activity was simulated locally rather than coming from an external attacker.
+
+### Impact on Investigation
+
+Since the IP is local, external threat intelligence enrichment was not applicable. However, the behavior (multiple failed login attempts) still accurately represents a brute-force attack pattern. This demonstrates the importance of understanding context before applying enrichment.
