@@ -175,3 +175,16 @@ Key learning:
 - Correlation rules are essential for detecting real threats
 - Multiple low-level events can indicate high-risk activity
 - SIEM tuning improves detection accuracy and reduces noise
+
+--------------------------------------------------
+
+First incident report:
+
+- Investigated brute-force login alert
+- Analyzed multiple failed login events
+- Documented findings and response steps
+
+Key learning:
+
+- SOC work involves investigation and documentation, not just alerts
+- Clear explanation of events is critical
