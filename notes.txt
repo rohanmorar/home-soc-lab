@@ -157,6 +157,21 @@ Key learning:
 - SIEM can be customized for specific behaviors
 - Detection engineering requires testing and validation
 
-Next Steps:
+--------------------------------------------------
 
-- Start generating and analyzing alerts
+Brute-force detection success:
+
+- Correlation rule ID 100003 successfully triggered
+- Detected multiple failed login attempts within short timeframe
+- Alert severity increased to level 12
+
+Observations:
+
+- Multiple failed login events (100002) triggered the correlation rule
+- Demonstrates real attack pattern detection rather than single-event alerts
+
+Key learning:
+
+- Correlation rules are essential for detecting real threats
+- Multiple low-level events can indicate high-risk activity
+- SIEM tuning improves detection accuracy and reduces noise
