@@ -240,3 +240,9 @@ Key learning:
 - Not all IPs should be enriched
 - Localhost activity is expected in lab simulations
 - Important to interpret IP context correctly
+
+--------------------------------------------------
+
+Resume talking point:
+
+- Built and deployed a Wazuh SIEM lab, onboarded Windows endpoint, created custom detection rules, and performed incident investigation with threat enrichment and MITRE ATT&CK mapping

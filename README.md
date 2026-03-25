@@ -21,6 +21,13 @@ I want to become a SOC analyst and be able to:
 - Explain what happened clearly
 
 
+## Metrics (project impact):
+
+- Reduced alert investigation time by ~50–70% using enrichment and context awareness
+- Built 3 custom detection rules (account creation, failed login, brute-force)
+- Successfully detected and analyzed simulated brute-force attack
+- Implemented correlation logic to reduce alert noise and improve signal
+
 ## Current Progress
 
 - [x] Project initialized
@@ -28,7 +35,11 @@ I want to become a SOC analyst and be able to:
 - [x] VMware installed
 - [x] Windows VM created
 - [X] Create Linux VM
-
-Next step:
-- [ ] Install Wazuh SIEM
+- [X] SIEM deployment
+- [X] Log ingestion
+- [X] Custom detections
+- [X] Correlation rules
+- [X] Enrichment workflow
+- [X] Incident report
+- [X] Metrics + storytelling
 

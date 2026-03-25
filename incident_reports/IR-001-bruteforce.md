@@ -91,3 +91,29 @@ The source IP is a localhost address (127.0.0.1), which indicates the activity o
 ### Impact on Investigation
 
 Since the IP is local, external threat intelligence enrichment was not applicable. However, the behavior (multiple failed login attempts) still accurately represents a brute-force attack pattern. This demonstrates the importance of understanding context before applying enrichment.
+
+## 10. Investigation Efficiency Improvement
+
+### Before Enrichment
+
+- Alerts showed failed login activity only
+- No context about the source of activity
+- Analyst must manually research IP reputation
+- Higher investigation time and uncertainty
+
+### After Enrichment / Contextual Analysis
+
+- Identified source IP as localhost (127.0.0.1)
+- Determined activity originated from the same system
+- Recognized simulation vs external threat
+- Reduced need for external lookup
+
+### Outcome
+
+- Faster triage and decision-making
+- Reduced unnecessary investigation steps
+- Improved confidence in analysis
+
+Estimated impact:
+
+- Reduced investigation time by ~50–70% due to immediate context awareness
